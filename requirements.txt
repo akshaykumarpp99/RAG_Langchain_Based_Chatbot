@@ -1,0 +1,10 @@
+python-dotenv
+langchain_community
+bs4
+streamlit
+langchain
+langchain-openai
+faiss-cpu
+langchain_huggingface
+sentence-transformers
+langchain-groq

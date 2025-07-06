@@ -1,0 +1,27 @@
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore environment folders
+env/
+venv/
+vm/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore IDE and editor config files
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore dotenv files
+.env
+
+# Ignore local fiass index files
+faiss_*.index
