@@ -8,14 +8,7 @@ st.title("RAG, Langchain Based Chatbot")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-# type_of_source = st.radio("Choose any one of the following options",
-#             ["URL", "Document"] 
-#         )
-
-# if type_of_source == "Document":
 URL = st.text_input("Enter the website URL you want to query")
-# elif type_of_source == "URL":
-    # URL = st.text_input("Enter the website URL you want to query")
 
 if URL and ("db" not in st.session_state or st.session_state.get("last_url") != URL):
     with st.spinner("Loading documents from given URL..."):

@@ -10,7 +10,6 @@ from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 import streamlit as st
 
-# os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
 llm = ChatGroq(
